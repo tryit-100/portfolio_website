@@ -1,0 +1,15 @@
+/* google font imported [family: bai-jamjuree] */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+body {
+    background: #15161A;
+    margin: 100px;
+    color: #FFF;
+    /* font-size: 48px; */
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
