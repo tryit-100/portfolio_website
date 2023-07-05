@@ -1,0 +1,9 @@
+:root{
+    --bg-body: #15161A;
+    --primary-dark: #3F424D;
+    --primary-light: #656A7B;
+    --primary-text: white;
+    --secondary-text: #656A7B;
+    --tertiary-text: rgba(255, 255, 255, 0.80);
+    --menu-hover: #343538;
+}

@@ -1,0 +1,37 @@
+.banner-section{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#banner-title {
+    font-size: 96px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 100%;
+    -webkit-text-fill-color: var(--bg-body);
+    text-shadow:
+     1px  1px 0 #FFF,
+    -1px -1px 0 #FFF,  
+     1px -1px 0 #FFF,
+    -1px  1px 0 #FFF,
+     1px  1px 0 #FFF;
+}
+
+.banner{
+    background-image: url(../assets/images/signature-bg.svg);
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-position: bottom center;
+    text-align: center;
+}
+
+.banner h1{
+    padding-top: 56px;
+}
+
+.banner h4{
+    padding-top: 24px;
+}

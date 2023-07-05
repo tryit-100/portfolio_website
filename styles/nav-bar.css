@@ -12,15 +12,18 @@ nav {
     align-items: center;
     justify-content: space-around;
     padding: 16px 0;
+
+    position: sticky;
+    top: 100px;
 }
 
 hr{
     width: 32px;
-    border: 1px solid #656A7B;
+    border: 1px solid var(--primary-light);
 }
 
 nav img:hover{
-    background: #343538;
+    background: var(--menu-hover);
     padding: 14px;
     border-radius: 28px;
 }
