@@ -1,0 +1,71 @@
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 48px;
+}
+
+.card {
+    border-radius: 40px;
+    background: radial-gradient(100% 100% at 50.00% 0%, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.02) 100%);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.60), 0px 3px 8px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.04);
+    backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px;
+}
+
+/* .thumbnail {} */
+
+.project-icon{
+    width: 40px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.footer-left {
+    display: flex;
+    gap: 24px;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sub-title {
+    /* Para 16 px */
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    color: var(--secondary-text);
+}
+
+.card button {
+    padding: 8px 16px;
+    border-radius: 80px;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%), rgb(255, 255, 255);
+    /* box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.60), 0px 2px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.04); */
+    color: black;
+    font-size: 14px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border: none;
+}
+
+.card button:hover {
+    color: var(--primary-text);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.60), 0px 2px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.04);
+}
