@@ -1,0 +1,96 @@
+.about-me-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 84px;
+    background-image: url(../assets/images/about-me-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 150vh; */
+    /* padding-bottom: 150px; */
+}
+
+.about-me-left{
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+}
+
+.about-me-left .section-title{
+    width: 100%;
+}
+
+.about-me-content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: var(--secondary-text);
+}
+
+.about-me-content p{
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.about-me-content .primary-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 200px;
+}
+
+.vertical-name{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.profile-name{
+    font-size: 96px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 100%;
+    -webkit-text-fill-color: var(--bg-body);
+    text-shadow:
+     1px  1px 0 #FFF,
+    -1px -1px 0 #FFF,  
+     1px -1px 0 #FFF,
+    -1px  1px 0 #FFF,
+     1px  1px 0 #FFF;
+}
+
+.about-me-right{
+    display: flex;
+
+}
+
+.profile{
+    position: relative;
+    z-index: -1;
+}
+
+.filled-profile, .outline-profile{
+    width: 478px;
+    height: 660px;
+    border-radius: 32px;
+}
+
+.filled-profile{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background-color: var(--primary-dark);
+}
+
+.outline-profile{
+    /* position: absolute; */
+    border: 1px solid var(--primary-light);
+}

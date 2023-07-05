@@ -50,7 +50,7 @@
     color: var(--secondary-text);
 }
 
-.card button {
+.primary-btn {
     padding: 8px 16px;
     border-radius: 80px;
     background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%), rgb(255, 255, 255);
@@ -64,7 +64,7 @@
     border: none;
 }
 
-.card button:hover {
+.primary-btn:hover {
     color: var(--primary-text);
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(0, 0, 0, 0.10);
     box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.60), 0px 2px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.04);
