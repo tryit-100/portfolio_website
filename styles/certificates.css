@@ -1,0 +1,25 @@
+.certificate-section{
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+    background-image: url(../assets/images/certificate-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    height: 150vh;
+    padding-bottom: 150px;
+}
+
+.img-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificate{
+    width: 790px;
+}
+.certificate img{
+    width: 100%;
+    border-radius: 32px;
+
+}
