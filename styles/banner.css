@@ -42,10 +42,10 @@
         padding-bottom: 0px;
     }
 
-    .banner{
+    .banner {
         background-size: fit-content;
     }
-    
+
     #banner-title {
         font-size: 72px;
     }
@@ -53,8 +53,37 @@
     .banner h1 {
         padding-top: 48px;
     }
-    
+
     .banner h4 {
         padding-top: 16px;
     }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .banner-section {
+        /* height: 100vh; */
+        padding-bottom: 0px;
+        height: 30vh;
+        padding-block: 40px;
+    }
+
+    .banner {
+        padding: 0px 8px;
+        text-align: start;
+        background-size: contain;
+    }
+
+    #banner-title {
+        font-size: 24px;
+        padding: 24px 0;
+    }
+
+    .banner h5 {
+        padding-top: 16px;
+    }
+
+    .banner h4 {
+        padding-top: 8px;
+    }
+
 }

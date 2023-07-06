@@ -95,3 +95,16 @@
     /* position: absolute; */
     border: 1px solid var(--primary-light);
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .about-me-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        background-position: bottom right;
+        /* height: 100vh; */
+        padding-bottom: 150px;
+    }
+}

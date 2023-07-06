@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
 
 body {
-    min-width: 1400px;
+    /* min-width: 1400px; */
     background: var(--bg-body);
     margin: 0;
     padding: 100px;
@@ -21,8 +21,16 @@ body {
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
     body {
-        /* min-width: 1200px; */
         padding: 100px;
         grid-template-columns: 56px auto;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 84px;
     }
 }

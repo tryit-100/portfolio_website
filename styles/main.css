@@ -11,3 +11,10 @@ main {
         min-width: 1200px;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    main {
+        margin: 0;
+        min-width: 320px;
+    }
+}

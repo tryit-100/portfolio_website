@@ -16,3 +16,12 @@
         padding-bottom: 250px;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .projects-section{
+        /* background-position: bottom right; */
+        height: 110vh;
+        padding-bottom: 250px;
+        background-image: none;
+    }
+}

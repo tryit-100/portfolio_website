@@ -29,3 +29,10 @@
         height: 200vh;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .certificate-section{
+        background-image: none;
+        height: 100vh;
+    }
+}

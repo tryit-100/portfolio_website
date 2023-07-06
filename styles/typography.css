@@ -36,7 +36,7 @@ h4 {
 
 h5 {
     /* Heading 5 */
-    font-size: 32px;
+    font-size: 16px;
 }
 
 h6 {
@@ -89,3 +89,40 @@ p {
         font-size: 16px;
     }
  }
+
+ @media screen and (min-width: 320px) and (max-width: 480px) {
+    h1 {
+        /* Heading 1 */
+        font-size: 40px;
+    }
+    
+    h2 {
+        /* Heading 2 */
+        font-size: 32px;
+    }
+    
+    h3 {
+        /* Heading 3 */
+        font-size: 28px;
+    }
+    
+    h4 {
+        /* Heading 4 */
+        font-size: 20px;
+    }
+    
+    h5 {
+        /* Heading 5 */
+        font-size: 16px;
+    }
+    
+    h6 {
+        /* Heading 6 */
+        font-size: 12px;
+    }
+    
+    p {
+        /* Para 18 px */
+        font-size: 12px;
+    }
+}
