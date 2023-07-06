@@ -1,7 +1,4 @@
-.banner-section{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+.banner-section {
     height: 100vh;
     padding-bottom: 100px;
 }
@@ -14,14 +11,14 @@
     line-height: 100%;
     -webkit-text-fill-color: var(--bg-body);
     text-shadow:
-     1px  1px 0 #FFF,
-    -1px -1px 0 #FFF,  
-     1px -1px 0 #FFF,
-    -1px  1px 0 #FFF,
-     1px  1px 0 #FFF;
+        1px 1px 0 #FFF,
+        -1px -1px 0 #FFF,
+        1px -1px 0 #FFF,
+        -1px 1px 0 #FFF,
+        1px 1px 0 #FFF;
 }
 
-.banner{
+.banner {
     background-image: url(../assets/images/signature-bg.svg);
     background-repeat: no-repeat;
     padding-top: 150px;
@@ -30,10 +27,34 @@
     text-align: center;
 }
 
-.banner h1{
+.banner h1 {
     padding-top: 56px;
 }
 
-.banner h4{
+.banner h4 {
     padding-top: 24px;
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .banner-section {
+        /* height: 100vh; */
+        padding-bottom: 0px;
+    }
+
+    .banner{
+        background-size: fit-content;
+    }
+    
+    #banner-title {
+        font-size: 72px;
+    }
+
+    .banner h1 {
+        padding-top: 48px;
+    }
+    
+    .banner h4 {
+        padding-top: 16px;
+    }
 }

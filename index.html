@@ -24,17 +24,43 @@
 <body>
     <!-- navigation section -->
     <nav>
-        <img src="assets/icons/signature-selected.svg" alt="my signature logo">
+        <div class="logo">
+            <a href="#"><img src="assets/icons/name-light.svg" alt="my signature logo"></a>
+        </div>
         <hr>
-        <img src="assets/icons/projects-normal.svg" alt="folder icon">
-        <img src="assets/icons/skills.svg" alt="brain and gear icon">
-        <img src="assets/icons/certificate.svg" alt="certificate icon">
-        <img src="assets/icons/about-me.svg" alt="person finger pointing icon">
+        <div class="tooltip">
+            <a href="#go-to-projects"><img src="assets/icons/projects-normal.svg" alt="folder icon"></a>
+            <span class="tooltiptext">Selected Projects</span>
+        </div>
+        <div class="tooltip">
+            <a href="#go-to-skills"><img src="assets/icons/skills.svg" alt="brain and gear icon"></a>
+            <span class="tooltiptext">What I Use</span>
+        </div>
+        <div class="tooltip">
+            <a href="#go-to-certificates"><img src="assets/icons/certificate.svg" alt="certificate icon"></a>
+            <span class="tooltiptext">My Certificates</span>
+        </div>
+        <div class="tooltip">
+            <a href="#go-to-about"><img src="assets/icons/about-me.svg" alt="person finger pointing icon"></a>
+            <span class="tooltiptext">More About Me</span>
+        </div>
         <hr>
-        <img src="assets/icons/mail.svg" alt="mail icon">
-        <img src="assets/icons/whats-app.svg" alt="whats-app icon">
-        <img src="assets/icons/linked In.svg" alt="linked in icon">
-        <img src="assets/icons/github.svg" alt="github icon">
+        <div class="tooltip">
+            <a href=""><img src="assets/icons/mail.svg" alt="mail icon"></a>
+            <span class="tooltiptext">safwan.std21@gmail.com</span>
+        </div>
+        <div class="tooltip">
+            <a href=""><img src="assets/icons/whats-app.svg" alt="whats-app icon"></a>
+            <span class="tooltiptext">+880 1722 100839</span>
+        </div>
+        <div class="tooltip">
+            <a href=""><img src="assets/icons/linked In.svg" alt="linked in icon"></a>
+            <span class="tooltiptext">sajid-abdullah</span>
+        </div>
+        <div class="tooltip">
+            <a href=""><img src="assets/icons/github.svg" alt="github icon"></a>
+            <span class="tooltiptext">tryit-100</span>
+        </div>
     </nav>
     <!-- main section -->
     <main>
@@ -48,7 +74,7 @@
             </div>
         </section>
         <!-- 2. projects section -->
-        <section class="projects-section">
+        <section class="projects-section" id="go-to-projects" style="display: none;">
             <header class="section-title">
                 <h3>Selected Projects</h3>
                 <div class="underline-div"></div>
@@ -102,7 +128,7 @@
             </div>
         </section>
         <!-- 3. skills section -->
-        <section class="skills-section">
+        <section class="skills-section" id="go-to-skills" style="display: none;">
             <header class="section-title">
                 <h3>What I Use</h3>
                 <div class="underline-div"></div>
@@ -145,7 +171,7 @@
             </div>
         </section>
         <!-- 4. certificate section -->
-        <section class="certificate-section">
+        <section class="certificate-section" id="go-to-certificates" style="display: none;">
             <header class="section-title">
                 <h3>Certificates</h3>
                 <div class="underline-div"></div>
@@ -155,7 +181,7 @@
             </div>
         </section>
         <!-- 5. about me section -->
-        <section class="about-me-section">
+        <section class="about-me-section" id="go-to-about" style="display: none;">
             <div class="about-me-left">
                 <header class="section-title">
                     <h3>More About Me</h3>

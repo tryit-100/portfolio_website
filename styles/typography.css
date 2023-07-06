@@ -52,3 +52,40 @@ p {
     font-style: normal;
     font-weight: 400;
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    h1 {
+        /* Heading 1 */
+        font-size: 64px;
+    }
+    
+    h2 {
+        /* Heading 2 */
+        font-size: 56px;
+    }
+    
+    h3 {
+        /* Heading 3 */
+        font-size: 48px;
+    }
+    
+    h4 {
+        /* Heading 4 */
+        font-size: 32px;
+    }
+    
+    h5 {
+        /* Heading 5 */
+        font-size: 24px;
+    }
+    
+    h6 {
+        /* Heading 6 */
+        font-size: 16px;
+    }
+    
+    p {
+        /* Para 18 px */
+        font-size: 12px;
+    }
+ }

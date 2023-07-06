@@ -1,3 +1,11 @@
 main{
-    margin: 0 160px 0 94px;
+    /* margin: 0 160px 0 94px; */
+    min-width: 1400px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+   main{
+    margin: 0;
+    min-width: 1200px;
+   }
 }

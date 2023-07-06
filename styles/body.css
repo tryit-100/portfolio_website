@@ -2,8 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
 
 body {
+    min-width: 1400px;
     background: var(--bg-body);
-    margin: 100px;
+    margin: 0;
+    padding: 100px;
+    box-sizing: border-box;
     color: #FFF;
     /* font-size: 48px; */
     font-family: 'Bai Jamjuree', sans-serif;
@@ -14,4 +17,12 @@ body {
     text-transform: uppercase;
     display: grid;
     grid-template-columns: 64px auto;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    body {
+        /* min-width: 1200px; */
+        padding: 100px;
+        grid-template-columns: 56px auto;
+    }
 }
