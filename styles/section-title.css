@@ -1,14 +1,20 @@
 .section-title{
     position: relative;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .underline-div{
     height: 32px;
-    width: 40%;
+    width: 30%;
     background: var(--primary-dark);
     position: absolute;
     top: 56%;
     left: 8px;
     z-index: -1;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .underline-div{
+        height: 24px;
+    }
 }

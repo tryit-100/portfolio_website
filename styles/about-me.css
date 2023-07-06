@@ -1,12 +1,13 @@
 .about-me-section{
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% auto;
     justify-content: space-between;
     gap: 84px;
     background-image: url(../assets/images/about-me-bg.svg);
     background-repeat: no-repeat;
-    background-position: center;
-    /* height: 150vh; */
-    /* padding-bottom: 150px; */
+    background-position: center right;
+    /* height: 100vh; */
+    padding-bottom: 150px;
 }
 
 .about-me-left{

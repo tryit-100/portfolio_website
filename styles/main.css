@@ -1,11 +1,13 @@
-main{
-    /* margin: 0 160px 0 94px; */
+main {
+    box-sizing: border-box;
+    margin: 0 160px 0 94px;
     min-width: 1400px;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
-   main{
-    margin: 0;
-    min-width: 1200px;
-   }
+    main {
+        margin: 0;
+        padding-inline: 60px;
+        min-width: 1200px;
+    }
 }

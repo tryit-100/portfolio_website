@@ -8,3 +8,11 @@
     height: 150vh;
     padding-bottom: 150px;
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .projects-section{
+        /* background-position: bottom right; */
+        height: 200vh;
+        padding-bottom: 250px;
+    }
+}

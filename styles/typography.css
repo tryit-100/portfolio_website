@@ -45,12 +45,12 @@ h6 {
 }
 
 p {
-    /* Para 18 px */
+    /* Para 20 px */
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Bai Jamjuree', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -66,7 +66,7 @@ p {
     
     h3 {
         /* Heading 3 */
-        font-size: 48px;
+        font-size: 40px;
     }
     
     h4 {
@@ -86,6 +86,6 @@ p {
     
     p {
         /* Para 18 px */
-        font-size: 12px;
+        font-size: 16px;
     }
  }

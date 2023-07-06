@@ -23,3 +23,9 @@
     border-radius: 32px;
 
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .certificate-section{
+        height: 200vh;
+    }
+}
