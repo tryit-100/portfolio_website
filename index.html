@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="styles/skills.css">
     <link rel="stylesheet" href="styles/certificates.css">
     <link rel="stylesheet" href="styles/about-me.css">
+    
     <title>Portfolio</title>
 </head>
 
@@ -70,15 +71,15 @@
         <section class="banner-section">
             <div class="banner">
                 <!-- <img src="assets/images/signature-bg.svg" alt="my signature"> -->
-                <h5>Hi, I'm</h5>
-                <h4>Sajid Abdullah Al-hafiz</h4>
+                <h5 id="greeting">Hi, I'm</h5>
+                <h4 id="name">Sajid Abdullah Al-hafiz</h4>
                 <h1 id="banner-title">Software Engineer</h1>
             </div>
         </section>
         <!-- 2. projects section -->
         <section class="projects-section" id="go-to-projects">
             <header class="section-title">
-                <h3>Selected Projects</h3>
+                <h3 class="title-animation">Selected Projects</h3>
                 <div class="underline-div"></div>
             </header>
             <div class="card-container">
@@ -132,7 +133,7 @@
         <!-- 3. skills section -->
         <section class="skills-section" id="go-to-skills">
             <header class="section-title">
-                <h3>What I Use</h3>
+                <h3 class="title-animation">What I Use</h3>
                 <div class="underline-div"></div>
             </header>
             <div class="skills">
@@ -175,7 +176,7 @@
         <!-- 4. certificate section -->
         <section class="certificate-section" id="go-to-certificates">
             <header class="section-title">
-                <h3>Certificates</h3>
+                <h3 class="title-animation">Certificates</h3>
                 <div class="underline-div"></div>
             </header>
             <div class="img-slider">
@@ -186,7 +187,7 @@
         <section class="about-me-section" id="go-to-about">
             <div class="about-me-left">
                 <header class="section-title">
-                    <h3>More About Me</h3>
+                    <h3 class="title-animation">More About Me</h3>
                     <div class="underline-div"></div>
                 </header>
                 <div class="about-me-content">
@@ -218,6 +219,11 @@
         <!-- 6. contact me section -->
         <section></section>
     </main>
+
+    <!-- scroll-reveal animation js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- animation js -->
+    <script src="js/animation.js"></script>
 </body>
 
 </html>
