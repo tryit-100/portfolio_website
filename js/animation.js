@@ -2,7 +2,7 @@
 
 const sr = ScrollReveal({
     distance: '30px',
-    duration: 4000,
+    duration: 1000,
     reset: true
 });
 

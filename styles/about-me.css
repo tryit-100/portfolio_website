@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-position: center right;
     /* height: 100vh; */
+    padding-top: 100px;
     padding-bottom: 150px;
 }
 
@@ -38,13 +39,15 @@
     letter-spacing: 2px;
     line-height: 30px;
 }
-
 .about-me-content .primary-btn{
+    width: 200px;
+}
+.about-me-content .primary-btn a{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
-    width: 200px;
+    /* width: 200px; */
 }
 
 .vertical-name{
