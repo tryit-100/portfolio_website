@@ -1,0 +1,21 @@
+footer{
+    padding-top: 100px;
+}
+
+footer>hr{
+    width: 100%;
+}
+
+footer>div{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 12px;
+    color: var(--secondary-text);
+}
+
+strong{
+    color: var(--primary-text);
+}
